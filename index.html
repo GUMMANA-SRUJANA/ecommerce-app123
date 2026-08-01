@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Corner Store</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/index.html" class="logo">Corner<span>Store</span></a>
+    <nav class="main-nav" id="main-nav"></nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="page-heading">
+    <h1>Shop All Products</h1>
+    <p>Find something you'll love.</p>
+  </div>
+
+  <div class="filters">
+    <input type="text" id="search-input" placeholder="Search products...">
+    <select id="category-select">
+      <option value="">All Categories</option>
+    </select>
+  </div>
+
+  <div id="product-grid" class="product-grid">
+    <p>Loading products...</p>
+  </div>
+</div>
+
+<footer class="site-footer">CornerStore — a demo e-commerce app</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
